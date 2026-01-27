@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    <title> Pizza Ordering Form </title>
+    <meta charset="UTF-8">
+</head>
+
+<body> 
+
+<header> 
+<h1 class="title"> Pizza Ordering Form </h1>
+</header>
+
+<main>
+<section>
+<header>
+<h2> Contact Information </h2>
+</header>
+
+<form> 
+    <label for="inName">Name:</label>
+    <input type="text" name="inName" id="inName" required>
+</form>
+
+<form> 
+    <label for="inPhone">Phone:</label>
+    <input type="tel" name="inPhone" id="inPhone" required>
+</form>
+
+<form> 
+        <label for="inEmail">Email:</label>
+        <input type="email" name="inEmail" id="inEmail" required>
+</form>
+</section>
+
+<header>
+<h2> Select Pizza Size </h2>
+</header>
+
+<form> 
+
+<select name="size" id="size" required>
+    <option value="" disabled selected>--Select Size--</option>
+    <option value="medium">Medium</option>
+    <option value="large">Large</option>
+    <option value="xLarge">XLarge</option>
+</select>
+
+</form>
+
+
+<header>
+    <h2> Select Sauce </h2>
+</header>
+
+<form>
+    <input type="radio" name="sauce" value="marinara" required><label>Marinara</label><br>
+    <input type="radio" name="sauce" value="ranch" required><label>Ranch</label><br>
+    <input type="radio" name="sauce" value="ns" required><label>No Sauce</label><br>
+</form>
+
+
+<header>
+    <h2> Select Toppings</h2>
+</header>
+
+<form>
+    <input type="checkbox" name="toppings" value="pepperoni"><label>Pepperoni </label> 
+    <input type="checkbox" name="toppings" value ="sausage"><label>Sausage</label><br>
+    <input type="checkbox" name="toppings" value ="mush"><label>Mushroom </label>
+    <input type="checkbox" name="toppings" value ="pine"><label>Pineapple</label><br>
+    <input type="checkbox" name="toppings" value="pepers"><label>Peppers </label>
+    <input type="checkbox" name="toppings" value="onions"><label>Onions</label><br>
+</form>
+
+<header>
+    <h2> Additional Instructions</h2>
+</header>
+
+
+<form>
+    <textarea name="instructions">Add instructions</textarea>
+</form>
+
+<form>
+    <input type="submit" value="Submit">
+</form>
+
+<br>
+
+
+<table border="1">
+<tr>
+    <th>Developer</th>
+    <th>Title</th>
+    <th>Year</th>
+</tr>
+<tr>
+    <td>Bungie</td>
+    <td>Halo 3</td>
+    <td>2007</td>
+</tr>
+<tr>
+    <td>Bungie</td>
+    <td>Halo Reach</td>
+    <td>2010</td>
+</tr>
+<tr>
+    <td>Bungie</td>
+    <td>Destiny</td>
+    <td>2014</td>
+</tr>
+<tr>
+    <td>Bungie</td>
+    <td>Destiny 2</td>
+    <td>2017</td>
+</tr>
+<tr>
+    <td>Treyarch</td>
+    <td>COD BO2</td>
+    <td>2012</td>
+</tr>
+<tr>
+    <td>Mojang</td>
+    <td>Minecraft</td>
+    <td>2011</td>
+</tr>
+<tr>
+<td colspan="3" style = "text-align: center;">Count: 6</td>
+</tr>
+</table>
+
+
+</main>
+</body>
+</html>
