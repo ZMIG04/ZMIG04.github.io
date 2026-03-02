@@ -1,0 +1,50 @@
+body {
+background-color: lightcoral;
+text-align: center;
+}
+
+#main {
+padding: 20px;
+    margin: auto;
+background-color: white;
+margin: 70px;
+border: 5px solid black;
+border-radius: 40px;
+
+}
+
+label {
+
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+button {
+
+padding:8px;
+margin: 10px;
+
+}
+
+select {
+width: 200px;
+
+}
+
+input {
+border: 2px solid green;
+border-radius: 40px;
+padding:6px;
+
+}
+
+.team-card {
+border: 2px solid black;
+margin: 5px;
+}
+
+.team-card ul {
+list-style-position: inside;
+padding-left: 0;
+
+}

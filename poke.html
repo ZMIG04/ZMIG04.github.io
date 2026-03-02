@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>Poke Api</title> 
+        <link rel="stylesheet" href ="pokeStyle.css">
+        <script src="pokeScript.js"></script>
+        </script>
+    </head>
+
+    <body>
+
+        <div id="main"> 
+        <label for="nID">Name or ID</label> <br> <input id="nID" type="text">  
+        <button type="button" onclick="find()">Find</button> <br><br>  
+        <img src="missingno.png" alt="Pokemon Image" id="image" width="200" height="300"><br><br>
+        
+        <section id="soundbox">
+        <button type="button" onclick="playSound()"> Play </button><br>   
+        </section> <br><br>
+
+        <label for"moveList">Select Moves</label><br>
+        <select class="moveList" name="moveList">
+            <option value="none">None</option>
+        </select> 
+        <select class="moveList" name="moveList">
+            <option value="none">None</option>
+        </select>
+        <br> 
+        <select class="moveList" name="moveList">
+            <option value="none">None</option>
+        </select>  
+        <select class="moveList" name="moveList">
+            <option value="none">None</option>
+        </select> 
+        <br><br>
+
+
+       
+         <button type="button" onclick="addToTeam()"> Add to Team</button>
+        
+        
+         <div id = "teamContainer"> 
+        </div>
+
+        </div>
+
+
+    </body>
+
+
+
+
+
+
+
+</html>
